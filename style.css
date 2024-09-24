@@ -1,0 +1,185 @@
+body {
+  background-color: #070b24;
+  margin: 0;
+}
+.logo {
+  position: absolute;
+  width: 80px;
+  height: 52px;
+  top: 70px;
+  left: 76px;
+  opacity: 1;
+}
+.title {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  top: 68px;
+  left: 148px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: #aeb1c0;
+  opacity: 1;
+}
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+  top: 68px;
+  position: absolute;
+  height: 17px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: #aeb1c0;
+  opacity: 1;
+}
+.menu1 {
+  left: 511px;
+}
+.menu2 {
+  left: 608px;
+  width: 88px;
+}
+.menu3 {
+  left: 735px;
+  width: 97px;
+}
+.menu4 {
+  left: 871px;
+  width: 58px;
+}
+.contact {
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  top: 69px;
+  left: 1190px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #aeb1c0;
+  font-family: Inter, sans-serif;
+  opacity: 1;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  border: none;
+}
+.pointer {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 135px;
+}
+.text1 {
+  position: absolute;
+  width: 579px;
+  height: 139px;
+  top: 240px;
+  left: 92px;
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 70.19px;
+  text-align: left;
+  color: #ffffff;
+}
+.text2 {
+  position: absolute;
+  width: 570px;
+  height: 124px;
+  top: 430px;
+  left: 93px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #ffffff;
+}
+.getstarted {
+  position: absolute;
+  width: 170px;
+  height: 53px;
+  top: 560px;
+  left: 93px;
+  border-radius: 30px;
+  background: #7a38fe;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: left;
+  color: #aeb1c0;
+  display: flex;
+  align-items: center;
+  border: none;
+  text-align: left;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.pointer1 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 17px;
+  left: 135px;
+  border: 2px;
+}
+.image1 {
+  position: absolute;
+  width: 599px;
+  height: 553px;
+  top: 127px;
+  left: 796px;
+  z-index: 1;
+}
+.faded-ellipse {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  top: 20px;
+  left: 690px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+.faded-ellipse2 {
+  position: absolute;
+  width: 659px;
+  height: 604px;
+  top: -302px;
+  left: -329px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border-radius: 50%;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.8; /* Starting opacity */
+  }
+  50% {
+    opacity: 0.5; /* Lower opacity for flicker effect */
+  }
+  100% {
+    opacity: 0.8; /* Return to starting opacity */
+  }
+}
