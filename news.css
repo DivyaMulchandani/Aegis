@@ -1,0 +1,30 @@
+body {
+    background-color: #070b24;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+.news{
+    position: absolute;
+    width: 417px;
+    height: 70px;   
+    top: 91px;
+    left: 89px;
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 70.19px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.hardware{
+    position: absolute;
+    width: 97px;
+    height: 27px;
+    top: 175px;
+    left: 89px;
+    border-radius: 30px;
+
+}

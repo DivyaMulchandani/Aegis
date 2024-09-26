@@ -1,0 +1,78 @@
+body {
+  background-color: #070b24;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.empower {
+  position: absolute;
+  width: 80%;
+  max-width: 600px;
+  top: 50px;
+  left: 89px;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 70.19px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+.box {
+  position: absolute;
+  top: 400px;
+  left: 46px;
+
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 60px;
+}
+
+.card {
+  background-color: #2e2e5b;
+  border-radius: 30px;
+  padding: 60px 30px;
+  text-align: center;
+
+  width: 275px;
+  height: auto;
+  margin: 0 ;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon img {
+  width: 26px;
+  height: 23px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.para {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c7c7da;
+  text-align: center;
+  margin: 30px;
+}
+
